@@ -1,0 +1,41 @@
+.todoWrap{
+    border: 2px solid green;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.btnWrap{
+    text-align: center;
+    margin: 20px 0;
+}
+.todo-del{
+    border: 1px solid red;
+    background: #fff;
+    border-radius: 10px;
+    color: red;
+    height: 30px;
+    width: 60px;
+    margin: 0 1px 0 0;
+    cursor: pointer;
+    
+}
+.todo-del:hover{
+    background-color: red;
+    color: #fff;
+}
+.todo-done{
+    border: 1px solid rgb(45, 78, 224);
+    background: #fff;
+    border-radius: 10px;
+    color:  rgb(45, 78, 224);
+    height: 30px;
+    width: 60px;
+    margin: 0 0 0 1px;
+    cursor: pointer;
+    
+}
+.todo-done:hover{
+    background-color: blue;
+    color: #fff;
+}
